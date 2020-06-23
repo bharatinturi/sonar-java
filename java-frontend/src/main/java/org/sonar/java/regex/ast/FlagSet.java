@@ -85,4 +85,8 @@ public class FlagSet {
     return mask;
   }
 
+  public boolean isEmpty() {
+    return mask == 0;
+  }
+
 }

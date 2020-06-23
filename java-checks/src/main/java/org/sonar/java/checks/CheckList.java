@@ -47,6 +47,7 @@ import org.sonar.java.checks.regex.AnchorPrecedenceCheck;
 import org.sonar.java.checks.regex.DuplicatesInCharacterClassCheck;
 import org.sonar.java.checks.regex.InvalidRegexCheck;
 import org.sonar.java.checks.regex.RedosCheck;
+import org.sonar.java.checks.regex.RegexComplexityCheck;
 import org.sonar.java.checks.regex.ReluctantQuantifierCheck;
 import org.sonar.java.checks.regex.UnicodeCaseCheck;
 import org.sonar.java.checks.regex.UnusedGroupNamesCheck;
@@ -555,6 +556,7 @@ public final class CheckList {
       RawTypeCheck.class,
       ReadObjectSynchronizedCheck.class,
       ReceivingIntentsCheck.class,
+      RedosCheck.class,
       RedundantAbstractMethodCheck.class,
       RedundantAssignmentsCheck.class,
       RedundantCloseCheck.class,
@@ -564,8 +566,8 @@ public final class CheckList {
       RedundantThrowsDeclarationCheck.class,
       RedundantTypeCastCheck.class,
       ReflectionOnNonRuntimeAnnotationCheck.class,
+      RegexComplexityCheck.class,
       RegexHotspotCheck.class,
-      RedosCheck.class,
       RegexPatternsNeedlesslyCheck.class,
       ReluctantQuantifierCheck.class,
       RepeatAnnotationCheck.class,
